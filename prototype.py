@@ -11,3 +11,10 @@ class concept(object):
     def function_second(self, number):
       pass
     
+    def function_third(self, i):
+      operation = i + 24
+    return operation
+  
+  class concept_second(concept):
+    pass
+    
