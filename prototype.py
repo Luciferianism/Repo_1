@@ -16,5 +16,8 @@ class concept(object):
     return operation
   
   class concept_second(concept):
-    pass
+    def __init__(self, var_a,var_b,var_c,var_d):
+      super().__init__(var_a,var_b,var_c)
+      self.var_d = var_d
+      pass
     
