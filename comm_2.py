@@ -7,6 +7,7 @@ class base(master):
 def main():
     obj = base()
     for i in range(1):
+        obj.foo_1("x")
         pass
     pass
 
